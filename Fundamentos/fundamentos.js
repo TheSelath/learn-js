@@ -157,7 +157,7 @@ for(let nome of nomes){
 //// Estrutura While
 
 let k = 0;
-while(i < number){
+while(k < number){
     console.log(k);
     k++;
 }
@@ -181,14 +181,42 @@ do{
 init("Jorge"); //hoisting, permite a execução de uma função antes da sua criação - funciona em JS
 
 function init(name){
-    console.log("Welcome" + name);
+    console.log("Welcome " + name);
 }
 
 //// arrow function
 
-const arrowFuncion = (name) => console.log("Welcome + name");
+const arrowFuncion = (name) => console.log("Welcome " + name);
 
 arrowFuncion("João");
+
+// Funções de Arrays
+
+const arrayList = [1,2,3,4,5,6];
+
+arrayList.push(7); //inclui valor na ultima posição do array
+
+console.log(arrayList);
+
+arrayList.pop(); //remove ultimo valor no array
+
+console.log(arrayList);
+
+// Interpolação e Concatenação
+
+////Interpolação 
+
+const primeiroNome = "João";
+const sobreNome = "Almeida";
+
+const fullName = `${primeiroNome} ${sobreNome}`
+
+console.log(fullName);
+
+//// Concatenção
+
+console.log(primeiroNome + " " + sobreNome);
+
 
 
 
