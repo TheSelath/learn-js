@@ -1,10 +1,11 @@
 # Fundamentos JavaScript
 
-## CamelCase
+## CamelCase  
 
-### O que é CamelCase?
+### O que é CamelCase? 
 
-    CamelCase é a uma convenção de nomenclaturas utilizada por desenvolvedores para deixar o código mais legivel
-    Consiste em nomenclaturas se iniciando com letras minusculas, sem espaços e suas demais palavra com letras iniciasi maiusculas
+CamelCase é a uma convenção de nomenclaturas utilizada por desenvolvedores para deixar o código mais legível.
 
-    - Exemplo: **_lowerCase_**
+Consiste em nomenclaturas se iniciando com letras minúsculas, sem espaços e suas demais palavra com letras iniciais maiúsculas
+
+- Exemplo: **_lowerCase_**
